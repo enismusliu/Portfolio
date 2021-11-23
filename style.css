@@ -275,6 +275,7 @@ text-align: center;
 #contact input, #contact textarea{
     width: 80%;
     margin: 6px 0;
+    color: var(--BlackOne);
 }
 #contact .button{
     margin-top: 5px;
@@ -393,7 +394,7 @@ body{
     font-size: 2em;
 }
 .part1 p{
-    font-size: 1em;
+    font-size: 1.1em;
 }
 /*About*/
 .pText{
@@ -404,17 +405,21 @@ body{
 }
 #about h3{
     grid-row: 1;
+    margin: 50px 0px 80px 0px;
 }
 .about-img{
+    display: flex;
     grid-column: 1/6;
     grid-row: 2;
 }
 .about-img img{
     max-width: 100%;
+    align-self: center;
 }
 /*Skills*/
 #skills h3{
 text-align: center;
+margin: 50px 0px 80px 0px;
 }
 #skills h4{
 text-align: center;
@@ -447,6 +452,9 @@ max-width: 98%;
     max-width: 500px;
     margin: 0 auto;
 }
+#projects h3{
+    margin: 50px 0px 80px 0px;
+}
 }
 /* /--------------------------------------------------------------/ */
 /*Larger Tablets and Laptops Styles*/
@@ -455,6 +463,16 @@ max-width: 98%;
     width: 100%;
     max-width: 950px;
     margin: 0 auto;
+}
+/* about */
+.about-img{
+    display: flex;
+    grid-column: 1/6;
+    grid-row: 2;
+}
+.about-img img{
+    max-width: 100%;
+    align-self: center;
 }
 /*Projects*/
 #projects h3{
